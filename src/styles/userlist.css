@@ -1,0 +1,35 @@
+.suggestion-box {
+    width: 360px;
+    margin: 5px auto;
+    box-shadow: 0 3px 10px #e5e5e5;
+    max-height: 570px;
+    overflow: scroll;
+}
+
+.suggestion {
+    display: flex;
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+.suggestion:hover {
+    background-color: #e5e5e5;
+}
+
+.image-wrapper {
+    height: 30px;
+    width: 50px;
+}
+
+img {
+    height: auto;
+    max-width: 40px;
+    border-radius: 50%;
+}
+
+.user-info {
+    margin-left: 10px;
+    text-align: left;
+}
