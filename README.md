@@ -85,3 +85,7 @@ As the page number changes, the API will be called and more users will be fetche
 We also did not use any kind of state management tools. We just used the normal react `useState` to manage the state of the app. We did not need the use of `Redux` because the data in this app is flowing in just single direction i.e from `AutoComplete` to `User` components. 
 
 Just in case if I had to use Redux then I would have just one reducer to maintain the state. I would use `thunk` to make the API call. 
+
+I would also like to add TypeScript to this to make the code much readable and error free. Since this is a very small single page app I did not choose to do that. Also, there aren't many state variables and props to maintain.
+
+This pretty much sums up the architecture of the app :)
