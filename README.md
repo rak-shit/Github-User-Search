@@ -39,32 +39,16 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Follow the below steps to make the app run locally in your system.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+After cloning the repository we must install all the dependencies using `npm install` and run the app using `npm start`.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Inorder to make the search functionality work we must first generate Personal Access Token from github.
 
-### Code Splitting
+To generate the personal access token follow the following steps: 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Go to Settings, then click on Developer Settings, then click on Personal Access Token and finally click on Generate new Token to generate a Personal Access Token. Make sure you copy the token into your notepad.
 
-### Analyzing the Bundle Size
+After generating the token, open your cloned react project and create a `.env` and make sure this file is created as a sister file to `package.json`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Inside the `.env` file copy the following text `REACT_APP_GITHUB_API_TOKEN=token` and replce the `token` with the token you have copied.
