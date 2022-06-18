@@ -52,3 +52,5 @@ Go to Settings, then click on Developer Settings, then click on Personal Access 
 After generating the token, open your cloned react project and create a `.env` and make sure this file is created as a sister file to `package.json`.
 
 Inside the `.env` file copy the following text `REACT_APP_GITHUB_API_TOKEN=token` and replce the `token` with the token you have copied.
+
+Now the serch functionality will work just as you like it.
