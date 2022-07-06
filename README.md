@@ -55,7 +55,7 @@ Inside the `.env` file copy the following text `REACT_APP_GITHUB_API_TOKEN=token
 
 Now the serch functionality will work just as you like it.
 
-## Follow the below steps to make the app run locally in your system.
+## Architecture
 
 The structure of the project is pretty simple, inside the `src` folder we have a `Components`, `api` and `styles` folders which are for Components which we create, the Github user search API and the styles for components respectively.
 
